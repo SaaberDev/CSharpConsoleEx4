@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{C9A82709-D4D7-43F7-8609-DC15E8A49412}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEx4", "ConsoleEx4\ConsoleEx4.csproj", "{C9A82709-D4D7-43F7-8609-DC15E8A49412}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
