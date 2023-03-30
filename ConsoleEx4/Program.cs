@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ConsoleEx4.Init;
+using ConsoleEx4.StringManipulation;
 
-Console.WriteLine("Hello, World!");
+// InitProgram.DisplayNames();
+// InitProgram.Init();
+
+NumberSerialChecker.DisplayResult();
