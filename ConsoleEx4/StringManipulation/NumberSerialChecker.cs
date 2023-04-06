@@ -9,7 +9,7 @@ public static class NumberSerialChecker
         
         var numbers = new List<int>();
         
-        if (input != null)
+        if (!string.IsNullOrWhiteSpace(input))
         {
             foreach (var value in input.Split("-"))
             {
