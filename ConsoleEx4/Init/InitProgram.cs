@@ -5,13 +5,13 @@ namespace ConsoleEx4.Init;
 public static class InitProgram
 {
     private static readonly string[] Names =
-        {
-            "Number Serial Checker",
-            "Check And Display Duplicates",
-            "Valid Time Checker",
-            "Convert String To PascalCase",
-            "Vowel Detector"
-        };
+    {
+        "Number Serial Checker",
+        "Check And Display Duplicates",
+        "Valid Time Checker",
+        "Convert String To PascalCase",
+        "Vowel Detector"
+    };
 
     public static void DisplayNames()
     {
@@ -41,28 +41,28 @@ public static class InitProgram
                 Console.WriteLine("=============================");
                 Console.WriteLine(Names[1]);
 
-                // code goes here
+                CheckAndDisplayDuplicates.DisplayResult();
                 break;
 
             case 3:
                 Console.WriteLine("=============================");
                 Console.WriteLine(Names[2]);
 
-                // code goes here
+                ValidTimeChecker.DisplayResult();
                 break;
 
             case 4:
                 Console.WriteLine("=============================");
                 Console.WriteLine(Names[3]);
 
-                // code goes here
+                ConvertStringToPascalCase.DisplayResult();
                 break;
 
             case 5:
                 Console.WriteLine("=============================");
                 Console.WriteLine(Names[4]);
 
-                // code goes here
+                VowelDetector.DisplayResult();
                 break;
 
             default:
